@@ -15,7 +15,7 @@ LIMIT 10
 
 -- 3. имя, фамилию и телефон сотрудников, у которых в данных отсутствует регион (см таблицу employees)
 
-SELECT last_name, first_name, home_phone
+SELECT first_name, last_name, home_phone
 FROM employees
 WHERE region IS NULL
 
